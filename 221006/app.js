@@ -4,7 +4,7 @@
 // 리덕스 플로우 차트
 // UI -> Dispatch -> Action -> Store(Reducer)(state) => UI
 // 리덕스는 동기적으로 처리가 되는대 변경 값이 있으면 바로 동작해서 API같은 데이터를 불러올 때 비동기 작업에 어려움이 있다. API 요청을 해서 데이터를 받은 이후에 작업을 해야하기 때문에 리덕스 미들웨어를 사용한다.
-// UI -> Dispatch -> Action -> Middleware -> Store(Reducer)(state) -> UI
+// UI -> Dispatch -> ActionFuction -> Middleware(리턴 함수) -> Action -> Store(Reducer)(state) -> UI
 
 // 미들웨어는 양쪽을 연결해주고 데이터를 주고 받을 수 있도록 중간에서 매개 역할을 담당하는 소프트웨어. 컴퓨터에 있는 프로세스들에게 어떤 서비스를 사용할 수 있도록 연결해주는 소프트웨어를 말한다.
 
