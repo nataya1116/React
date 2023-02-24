@@ -1,0 +1,32 @@
+.App{
+    text-align: center;
+}
+.weeks{
+    display: flex;
+    justify-content: center;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+}
+.week{
+    width: 150px;
+    height: 50px;
+    margin: 1px;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+    width: 150px;
+    height: 100px;
+    margin: 1px;
+    background-color: rgb(194, 193, 193);
+    color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: flex-start;
+}
